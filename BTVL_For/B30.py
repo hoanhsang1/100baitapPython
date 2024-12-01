@@ -1,4 +1,4 @@
-
+# Nhập vào số nguyên dương a, đếm số ước của a
 
 a= int(input('nhập vào số nguyên dương a: '))
 index=0

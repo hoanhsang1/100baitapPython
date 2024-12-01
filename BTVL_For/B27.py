@@ -1,3 +1,13 @@
+'''
+Viết chương trình in ra hình tam giác có độ cao h được nhập từ bàn phím
+Ví dụ: Ta nhập h = 4:
+
+   *
+  * *
+ *   *
+*******
+'''
+
 a= int(input('nhập vào 1 số nguyên dương'))
 
 def cai_cay(a):
