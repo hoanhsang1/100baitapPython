@@ -2,5 +2,5 @@
 
 n = input('nhập vào 1 chuỗi: ')
 
-result = n[0:1]
+result = n[:1]
 print(result)
