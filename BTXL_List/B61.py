@@ -7,7 +7,7 @@ def list_input():
     return list_result
 
 def softMin(List):
-	# List = list(map(int,List))
+	List = list(map(int,List))
 	result = []
 	if List==[]:
 		return []
@@ -26,7 +26,15 @@ def softMin(List):
 	return result
 					
 			
-    
+def softMin_Lite(n):
+	for i in range(len(n)):
+		for j in range(i+1,len(n)):
+			if n[i]>n[j]:
+				a = n[i]
+				n[i] = n[j]
+				n[j] =  a
+	return n
+
 
 a = list_input()
-print(softMin(a))
+print(softMin_Lite(a))
